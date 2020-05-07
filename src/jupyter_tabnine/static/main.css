@@ -35,7 +35,12 @@
 }
 
 
+/* 
+Changed background-color from white (rgb(255, 255, 255)) to black
+b/c I use a jupyter-dark theme which makes the text color white.
+*/
 .complete-dropdown-content {
-  background-color: rgb(255, 255, 255, 0.85);
+  color: rgb(100,0,100);
+  background-color: rgb(0, 0, 0);
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
 }
